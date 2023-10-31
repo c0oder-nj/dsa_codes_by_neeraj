@@ -4,16 +4,12 @@ using namespace std;
 int main(){
     char ch;
     cin>>ch;
-    int ascii;
-    ascii = (int) ch;
-    if(ascii >= 97 && ascii <= 122){
-        cout<<"LowerCase"<<endl;
+
+    if(ch >= 97 && ch <= 122){
+        cout<<"Lower Case";
     }
-    else if(ascii >= 65 && ascii <= 90){
-        cout<<"UpperCase"<<endl;
-    }
-    else{
-        cout<<"Number"<<endl;
+    else if(ch>=65 && ch<=91){
+        cout<<"Upper Case1";
     }
     return 0;
 }

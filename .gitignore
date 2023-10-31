@@ -1,3 +1,5 @@
-/.vscode
+,exe
 /leetCode video solutions
-*.exe
+/.vscode
+leetCode video solutions
+.vscode

@@ -9,15 +9,16 @@ int getLength(char *str){
     return i;
 }
 
-bool checkPalindrome(char *str,int size){
+bool checkPalindrome(char* str,int len){
     int s=0;
-    int e = size-1;
-    while(s<=e){
-        if(str[s++]!=str[e--]){
+    int e=len-1;
+    while(s<e){
+        if(str[s]!=str[e]){
             return false;
         }
+        s++;e--;
     }
-    return true; // true false always returnd as 1 and 0 not as true and false but it is easy
+    return true;
 }
 
 int main(){
