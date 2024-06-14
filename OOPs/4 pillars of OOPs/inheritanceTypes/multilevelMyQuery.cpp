@@ -24,7 +24,7 @@ class indianMale : public Man{
 
 int main(){
 
-    indianMale *newObj = new indianMale;
+    indianMale *newObj = new indianMale; // dynamic memory allocation
     newObj->greet(); // hello human
     
     return 0;

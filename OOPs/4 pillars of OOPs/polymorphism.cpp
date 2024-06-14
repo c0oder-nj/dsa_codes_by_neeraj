@@ -1,6 +1,10 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+
+// polymorphism is the ability to take multiple forms
+
+
 class A{
     public:
         int a;
@@ -22,11 +26,11 @@ class A{
 
 
         // operator overloading 
-        int operator+ (A &obj){
-            int val1 = this->a;
-            int val2 = obj.a;
+        int operator-(A &objOfA){
+            int firstVal = this->a;
+            int secondVal = objOfA.a;
 
-            return val1-val2;
+            return firstVal+secondVal;
         }
 };
 
@@ -51,6 +55,9 @@ int main(){
     
     A obj2;
     obj2.a = 5;
+
+
+    cout<<obj1-obj2<<endl; // - se + krwayega tumhara bhai 
 
     // cout<<obj1 + obj2; // jo pehla argument hoga uske corresponding call jayegi mere + operator ko toh mera this uska address store krega since vo perfrom krega as an current obj
     // so it will give me 5 

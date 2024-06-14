@@ -5,15 +5,16 @@ using namespace std;
 
 class Animal{
     public:
-        int weight;
         string type;
+        int weight;
 };
 
 
-class Dog:public Animal{
+// class child_class_name : mode_of_inheritance Parent_class_name{}
+class Dog: public Animal{
     public:
-        void barK(){
-            cout<<"Dog barks";
+        void bark(){
+            cout<<"dOG  bARKS"<<endl;
         }
 };
 
@@ -22,7 +23,6 @@ int main(){
     Dog d;
     d.type = "mammel";
     d.weight = 25;
-    d.barK();
-    
+    d.bark();
     return 0;
 }

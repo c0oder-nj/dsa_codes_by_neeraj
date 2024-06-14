@@ -1,6 +1,10 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// << -> insertion operator | insert kr rahe ho screen pr | cout<< insertiong on the screen
+// >> -> extraction operator | extract kr rahe ho | cin >> le rahe ho 
+
+
 int main(){
     int a;
     // cin>>a; // cin won't read escape sequence characters like \n, \t etc

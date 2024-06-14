@@ -71,6 +71,10 @@ class Hero{
 };
 
 // intializing static memebr
+// you can access static variable without using the class object
+// static object | variabels are directly belongs to the class
+// static functions ke pass this keyword nahi hota
+
 int Hero::timeTocomple = 5;
 
 int Hero::dummy(){

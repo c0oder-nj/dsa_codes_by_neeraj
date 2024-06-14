@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+
 void reverse(char *name, int n){
     int s=0;
     int end = n-1;

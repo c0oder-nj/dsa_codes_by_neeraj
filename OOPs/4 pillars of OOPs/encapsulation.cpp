@@ -1,9 +1,22 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+
+// wrapping up data members and functions in the same entity
 // Binding data member and functions in same entity knowns as class
 // data memeber --> properties or state
 // functions --> methods or behavious
+
+// fully encapsulations => sab data member private mark hote hai 
+
+// encapsulation -> data hiding | information hiding
+
+// abstraction -> implementation hiding
+
+// pros
+// security, readonly class, 
+// helps in unit testing
+
 
 class Student{
     int age;

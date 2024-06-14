@@ -44,8 +44,8 @@ void quickSort(int* arr,int low,int high){
    if(low<high){ // it should low<high now low<=high since agr <= lagaya toh 1 element ka jo subArray banega uske liye bhi condition true ho jayegi
 
     int pivotIndex = partitionFunc(arr,low,high);
-    quickSort(arr,low,pivotIndex-1);
-    quickSort(arr,pivotIndex+1,high);
+    quickSort(arr,low,pivotIndex-1); // left subpart 
+    quickSort(arr,pivotIndex+1,high); // right subpart
    }
 }
 
